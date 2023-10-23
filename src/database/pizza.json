@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "https://lviv.veteranopizza.com/image/cache/catalog/pizza/peperoni-800x800.jpg",
+    "price": 150,
+    "title": "Піца Пепероні",
+    "description": "Томатний соус, сир моцарелла, пепероні, спеції",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "img": "https://lh3.googleusercontent.com/-F7-f2RyixFJ_0-MIGehlz7lp08CkWuy7Y64qDx8zcSrAyHA_uWVnJx1XOVAHg_qoFD7fW34aWScKlOz7tlHx8LeBxDoB64vaZ6LCKKMAPPnr8-QTpPpQVVK-xGPWFZomSVkVZXW",
+    "price": 160,
+    "title": "Піца Маргарита",
+    "description": "Томатний соус, сир моцарелла, томати, базилік, оливкова олія",
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "img": "https://images.unian.net/photos/2021_04/thumb_files/800_0_1617710375-8746.jpg?0.5314365245311763",
+    "price": 170,
+    "title": "Піца Гавайська",
+    "description": "Томатний соус, сир моцарелла, курка, ананаси, гриби, спеції",
+    "rating": 4.0
+  }
+]

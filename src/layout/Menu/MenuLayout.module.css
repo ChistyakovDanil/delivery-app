@@ -1,0 +1,86 @@
+.left-panel {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-right: 1px solid #d4d6e0;
+  min-width: 240px;
+}
+
+.content {
+  padding: 40px 65px;
+  width: 100%;
+}
+
+/* user information */
+.user-info {
+  margin-bottom: 50px;
+}
+.user-info img {
+  margin-bottom: 20px;
+}
+.name {
+  font-weight: 700;
+  font-size: 20px;
+}
+.email {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* nav information */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.link {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.link img {
+  margin-right: 15px;
+}
+.link:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+/* button */
+.exit {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cart-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}

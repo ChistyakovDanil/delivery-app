@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #d4d6e0;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+.button {
+  border: none;
+  border-radius: 28px;
+  box-shadow: 0px 10px 30px 0px rgba(254, 114, 76, 0.2);
+  background: var(--primary-color);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.small {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 25px;
+}
+.big {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 20px 100px;
+  box-shadow: 0px 10px 40px 0px rgba(122, 129, 190, 0.16);
+}
+
+.button:hover {
+  background: var(--primary-hover-color);
+}

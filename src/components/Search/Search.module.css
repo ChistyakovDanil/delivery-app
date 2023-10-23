@@ -1,0 +1,21 @@
+.search {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid #efefef;
+  background: #fcfcfd;
+  padding: 15px 30px 15px 45px;
+  min-width: 260px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}

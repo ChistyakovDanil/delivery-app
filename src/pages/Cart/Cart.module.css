@@ -1,0 +1,118 @@
+.head {
+  margin-bottom: 40px;
+}
+.items {
+  margin-bottom: 40px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  max-width: 512px;
+  justify-content: space-between;
+}
+
+.delivery {
+  display: flex;
+  max-width: 512px;
+  justify-content: space-between;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 7px 0 7px 0;
+}
+
+.title {
+  color: var(--main-text-color);
+  font-size: 19px;
+}
+
+.title span {
+  color: #bebebe;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.price {
+  color: var(--main-text-color);
+  font-size: 19px;
+}
+
+.price span {
+  color: #9796a1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button {
+  max-width: 512px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для смартфонов (320px и 480px) и планшетов (768px и выше) */
+@media (max-width: 480px) {
+  .head {
+    margin-bottom: 10px; /* Уменьшаем отступ вверху */
+  }
+
+  .items {
+    margin-bottom: 10px; /* Уменьшаем отступ между элементами */
+  }
+
+  .main {
+    gap: 5px; /* Уменьшаем промежуток между элементами */
+  }
+
+  .title {
+    font-size: 14px; /* Уменьшаем размер шрифта для заголовков */
+  }
+
+  .title span {
+    font-size: 10px; /* Уменьшаем размер шрифта для подзаголовков */
+  }
+
+  .price {
+    font-size: 14px; /* Уменьшаем размер шрифта для цен */
+  }
+
+  .price span {
+    font-size: 10px; /* Уменьшаем размер шрифта для подзаголовков цен */
+  }
+}
+
+/* Стили для нетбуков (1024px и выше) */
+@media (min-width: 1024px) {
+  .head {
+    margin-bottom: 20px; /* Восстанавливаем отступ вверху */
+  }
+
+  .items {
+    margin-bottom: 20px; /* Восстанавливаем отступ между элементами */
+  }
+
+  .main {
+    gap: 10px; /* Восстанавливаем промежуток между элементами */
+  }
+
+  .title {
+    font-size: 16px; /* Восстанавливаем размер шрифта для заголовков */
+  }
+
+  .title span {
+    font-size: 12px; /* Восстанавливаем размер шрифта для подзаголовков */
+  }
+
+  .price {
+    font-size: 16px; /* Восстанавливаем размер шрифта для цен */
+  }
+
+  .price span {
+    font-size: 12px; /* Восстанавливаем размер шрифта для подзаголовков цен */
+  }
+}

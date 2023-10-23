@@ -1,0 +1,37 @@
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input label {
+  color: #9796a1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.input input {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input input::placeholder {
+  color: #c4c4c4;
+}
+
+.error {
+  color: #ff6e6e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

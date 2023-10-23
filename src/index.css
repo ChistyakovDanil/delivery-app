@@ -1,0 +1,13 @@
+@import url('./reset.css');
+
+:root {
+  --primary-color: #fe724c;
+  --primary-hover-color: rgb(255, 55, 0);
+  --main-color: #ffffff;
+  --main-text-color: #000000;
+  --text-color: #5b5b5e;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}

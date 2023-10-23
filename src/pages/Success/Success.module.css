@@ -1,0 +1,18 @@
+.container {
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 37.2px */
+  margin-bottom: 50px;
+}
